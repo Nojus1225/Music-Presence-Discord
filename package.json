@@ -1,0 +1,23 @@
+{
+  "name": "music-presence-discord",
+  "version": "1.0.0",
+  "description": "Windows Media Player integration with Discord Rich Presence",
+  "main": "index.js",
+  "_moduleAliases": {
+    "@": "./src"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "lint": "eslint ."
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@xhayper/discord-rpc": "^1.3.4",
+    "module-alias": "^2.3.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.1"
+  }
+}

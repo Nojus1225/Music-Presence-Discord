@@ -1,0 +1,25 @@
+{
+    "BOT_ID": "YOUR_DISCORD_BOT_ID",
+    "RPC_TEXT": {
+        "STATUS": {
+            "Playing": "▶️ Playing",
+            "Paused": "⏸️ Paused",
+            "Stopped": "⏹️ Stopped",
+            "Changing": "🔄 Changing",
+            "Opened": "📂 Opened",
+            "Closed": "🔒 Closed",
+            "Unknown": "❔ Unknown"
+        },
+        "LABELS": {
+            "FALLBACKS": {
+                "title": "Unknown title",
+                "artist": "Unknown artist"
+            }
+        }
+    },
+    "python": {
+        "executable": "python\\venv\\Scripts\\python.exe",
+        "script": "src\\python\\media_reader.py",
+        "pollInterval": 500
+    }
+}
